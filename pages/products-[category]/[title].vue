@@ -1,12 +1,12 @@
 <script lang="ts" setup>
 const route = useRoute();
 definePageMeta({
-  validate: route => {
-    const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-    const expresion = new RegExp(regex);
-    const title = route.params.title as string;
-    return expresion.test(title);
-  },
+  //validate: route => {
+  //  const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  //  const expresion = new RegExp(regex);
+  //  const title = route.params.title as string;
+  //  return expresion.test(title);
+  //},
 });
 </script>
 
